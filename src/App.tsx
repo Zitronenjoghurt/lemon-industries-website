@@ -8,8 +8,8 @@ function App() {
     <ThemeProvider theme={DarkTheme}>
       <CssBaseline />
       <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </ThemeProvider>
   )
 }

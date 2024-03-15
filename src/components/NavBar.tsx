@@ -11,7 +11,11 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { useNavigate } from 'react-router-dom';
 
-const pages = [{ name: 'Api', path: '/api' }, { name: 'GitHub', path: 'https://github.com/Zitronenjoghurt' }];
+const pages = [
+  { name: 'Projects', path: '/projects'},
+  { name: 'Api', path: '/api' }, 
+  { name: 'GitHub', path: 'https://github.com/Zitronenjoghurt' }
+];
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
