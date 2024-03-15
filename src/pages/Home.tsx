@@ -9,7 +9,6 @@ const Home = () => {
     <Container >
         <NavBar />
         <Offset />
-
     </Container>
   );
 };
