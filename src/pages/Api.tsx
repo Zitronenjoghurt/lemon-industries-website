@@ -16,8 +16,8 @@ const Api = () => {
             API page under construction
         </Typography>
         <Typography style={{marginBottom: 15, fontSize: 18, fontWeight: 'bold', textAlign: 'center'}}>
-            In the future I will add more information about this API here<br/>
-            But since the it's is already up:
+            In the future I will add more information about my API here<br/>
+            But since it's already up:
         </Typography>
         <Button variant="contained" color="primary" onClick={handleButtonClick} style={{display: 'block', margin: 'auto'}}>
             Check out the documentation
