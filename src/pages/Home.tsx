@@ -13,9 +13,9 @@ const Home = () => {
   ];
 
   const imageCards = [
-    { imageUrl: '/public/lemons.jpg', height: 200, buttonLabel: 'Page Code on GitHub', buttonUrl: 'https://github.com/Zitronenjoghurt/lemon-industries-website', type: 'image' },
-    { imageUrl: '/public/coding.jpg', height: 225, buttonLabel: 'Project Overview', buttonUrl: '/projects', type: 'image' },
-    { imageUrl: '/public/network.jpg', height: 225, buttonLabel: 'API Overview', buttonUrl: '/api', type: 'image' }
+    { imageUrl: '/lemons.jpg', height: 200, buttonLabel: 'Page Code on GitHub', buttonUrl: 'https://github.com/Zitronenjoghurt/lemon-industries-website', type: 'image' },
+    { imageUrl: '/coding.jpg', height: 225, buttonLabel: 'Project Overview', buttonUrl: '/projects', type: 'image' },
+    { imageUrl: '/network.jpg', height: 225, buttonLabel: 'API Overview', buttonUrl: '/api', type: 'image' }
   ];
 
   const combinedCards = [];
