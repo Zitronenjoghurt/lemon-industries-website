@@ -18,7 +18,7 @@ function InfoCard({ title, description }: CardProps) {
                         {title}
                     </Typography>
                     <Paper elevation={7} sx={{ mt: 2, p: 2, backgroundColor: "#272727", flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent: 'top' }}>
-                        <Typography sx={{ color: 'white' }}>
+                        <Typography sx={{ color: 'white' }} style={{ textAlign: 'justify' }}>
                             {description}
                         </Typography>
                     </Paper>

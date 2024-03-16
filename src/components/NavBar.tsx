@@ -12,6 +12,7 @@ import MenuItem from '@mui/material/MenuItem';
 import { useNavigate } from 'react-router-dom';
 
 const pages = [
+  { name: 'Home', path: '/'},
   { name: 'Projects', path: '/projects'},
   { name: 'Api', path: '/api' }, 
   { name: 'GitHub', path: 'https://github.com/Zitronenjoghurt' }
@@ -89,7 +90,10 @@ function NavBar() {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page.name} onClick={handleCloseNavMenu}>
+                <MenuItem key={page.name} onClick={() => {
+                  handleNavigation(page);
+                  handleCloseNavMenu();
+                }}>
                   <Typography textAlign="center">{page.name}</Typography>
                 </MenuItem>
               ))}
