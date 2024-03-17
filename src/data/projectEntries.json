@@ -1,20 +1,74 @@
 [
-    {
-      "title": "BabuBot",
-      "description": "A multipurpose discord bot using discord.py",
-      "text": "Status: Finished but in constant expansion\n\nI initially started creating this bot to check out how to make discord bots in python, then it quickly grew and grew as I got more and more ideas. Now it has so many features that I could'nt even list all of them here.\n\nSome of them include:\n• Rocket launch news, automatically sending notification 12h and 10min before every rocket launch\n• A fishing game with over 80 fish and a relatively nice progression curve\n• A command for getting a random Astronomy Picture Of the Day entry right from the NASA API\n• A command to randomly retrieve pet images (cat, dog, duck) from 3 selected APIs\n• A full shop and economy system, which structure allows for easily adding complex new types of items\n• A pokedex feature, which shows all kinds of data fromt he PokeAPI and will be extended in the future\n• An XP/Level system which gives currency as a reward for activity\n• Randomly querying OpenAI to answer specific messages using GPT-4, providing context of 5 messages\n• Custom profiles which you can set in a user-friendly way using a discord modal/form",
-      "imageUrl": "/babubot.png",
-      "imageWidth": 250,
-      "buttonLabel": "Test",
-      "buttonUrl": "https://github.com/Zitronenjoghurt/BabuBot"
-    },
-    {
-      "title": "Test",
-      "description": "Test",
-      "text": "This will be extended very soon",
-      "imageUrl": "/coding.jpg",
-      "imageWidth": 400,
-      "buttonLabel": "Test",
-      "buttonUrl": "/projects"
-    }
-  ]
+  {
+    "title": "BabuBot",
+    "description": "A multipurpose discord bot using discord.py",
+    "text": "Status: Finished but in constant expansion\n\nI initially started creating this bot to check out how to make discord bots in python, then it quickly grew and grew as I got more and more ideas. Now it has so many features that I could'nt even list all of them here.\n\nSome of them include:\n• Rocket launch news, automatically sending notification 12h and 10min before every rocket launch\n• A fishing game with over 80 fish and a relatively nice progression curve\n• A command for getting a random Astronomy Picture Of the Day entry right from the NASA API\n• A command to randomly retrieve pet images (cat, dog, duck) from 3 selected APIs\n• A full shop and economy system, which structure allows for easily adding complex new types of items\n• A pokedex feature, which shows all kinds of data fromt he PokeAPI and will be extended in the future\n• An XP/Level system which gives currency as a reward for activity\n• Randomly querying OpenAI to answer specific messages using GPT-4, providing context of 5 messages\n• Custom profiles which you can set in a user-friendly way using a discord modal/form",
+    "imageUrl": "/babubot.png",
+    "imageWidth": 250,
+    "buttonUrl": "https://github.com/Zitronenjoghurt/BabuBot"
+  },
+  {
+    "title": "Colonaut",
+    "description": "A python game about finding a perfect world for human colonization using TKinter for UI.",
+    "text": "Status: On Hold, but in a decent state\n\nThe idea to make a game like this came to me years ago when I played a game called 'Seedship' for Android. I really enjoyed the idea but never really had the propery skills and motivation to tackle such a project.\nAround christmas 2023 I finally got the determination to try to remake the game with my own visions, including a more complex story with unique characters and more realistic planet generation. In the end I worked on it for two months and gained decent experience about how to use UI with python, how to build and use event systems and how video games might work in the background. I don't plan to ever finish this but I enjoyed the time and learned a decent bit.",
+    "imageUrl": "/colonaut.png",
+    "imageWidth": 450,
+    "buttonUrl": "https://github.com/Zitronenjoghurt/Colonaut"
+  },
+  {
+    "title": "Lemon-Api (fast)",
+    "description": "A python api using the FastAPI library. Hosted on api.lemon.industries",
+    "text": "Status: In development, constant expansion with new ideas\n\nAfter creating my first python API, 'Lemon-Api' (without the 'fast') as a test, I searched for other API libraries and quickly stumbled upon FastAPI which seemed really promising (and it was).\nI plan to use this API as a playground to test small unrelated features, I already got some ideas like random planetary data or a periodic table or some kind of other data generation/distribution.\nAs of right now it just provides a way to retrieve the names/urls of random images I host in image.lemon.industries. Some might use it to implement a /hug @person command in a discord bot, which then sends a random hug gif provided by my API.",
+    "imageUrl": "/lemon_api.png",
+    "imageWidth": 450,
+    "buttonUrl": "https://api.lemon.industries/docs"
+  },
+  {
+    "title": "Image Hosting",
+    "description": "Static image hosting using a simple Caddy file server. Hosted on image.lemon.industries",
+    "text": "Status: Finished, will be extended with more categories and images\n\nAt the right you see a random cat image chosen by the lemon api and provided/hosted by my image api. This is cached and might not change between short website visits, though its one of many cat images that I have put on my server.\nSame as this website, the image API is essentially a file server which, thanks to Caddy, needs very little configuration. The only 'complex' thing about the image API is the redirect to a 404 image in case the file specified in the url was not found. Though thanks to Caddy even such special cases are very easy to implement.\nTechnically all images I put in the image API are publicly available, should you know the file names. I don't think its necessary to add file browsing, as the lemon API will handle providing the file names for all necessary cases. In the future I might add authentication for non-public files, should I need it.\n\nIf you want to look at random cat images, you can just visit this URL: https://api.lemon.industries/images/random/cat and refresh the page:)",
+    "imageUrl": "https://api.lemon.industries/images/random/cat",
+    "imageWidth": 400,
+    "buttonUrl": "https://image.lemon.industries/cat-20.gif"
+  },
+  {
+    "title": "Lemon-TicTacToe",
+    "description": "A TicTacToe python library handling all the game logic for potential integration with UI.",
+    "text": "Status: Partly finished, but not feature complete\n\nThis was my first attempt at making a python library that you can install with pip, and I succeeded. It was actually easier than expected, the whole process is pretty straightforward. I initially had the idea to make my own chess library, but since I did not have any experience with python libraries, I just started with an easier project: a TicTacToe library.\nInstead of using loops to check the win condition, I count the placements of certain players in each column, row and diagonal line. That way I can create TicTacToe boards of huge sizes while the only limitation is memory size. A drawback of this approach is that you can't configure how many pieces in a row you need to win. By default it's the board size, so if the board is 100 fields long, you will also need 100 pieces in a row or diagonally to win. I would need to check the whole board for diagonal lines too, which means I would have to use loops if the win size differs from the board size.",
+    "imageUrl": "/lemon_tictactoe.png",
+    "imageWidth": 400,
+    "buttonUrl": "https://pypi.org/project/lemon-tictactoe/"
+  },
+  {
+    "title": "FightingArena",
+    "description": "A simple python fighting simulation, aiming to be easily extendable.",
+    "text": "Status: Finished, but not feature complete\n\nMy goal with this project was to create a turn-based fighting simulation where fights play out like in old RPG's. Simple and turn-based, with clear currencies like Magic Points (MP) and Stamina Points (SP). For testing I created 2 classes, Barbarian and Wizard, but theoretically I could have added anything I'd have wanted. You are also able to configure skills (attacks fighters use) and effects (certain actions which might be repeated every round, like burn) and assign them to character classes (or skills).\nAs the project grew more, I started to face challenges caused by a lack of scope in the beginning. I did not really know how to structure a game and how to handle circular imports properly, which I gained alot of experience with thanks to this project xD\nLater on I tried to rebuild the whole fighting system to revolve around individual body parts, though I quickly realized that I was essentially building a more complex structure on an already existing structure... Which means I could just start a complete new project and it would be overall easier to build from the ground up.\n\nI might pick up this idea again in the future, maybe combining it with an API to make a fighting API.",
+    "imageUrl": "/fighting_arena.png",
+    "imageWidth": 250,
+    "buttonUrl": "https://github.com/Zitronenjoghurt/FightingArena"
+  },
+  {
+    "title": "GraphTheory",
+    "description": "Using python to study graph theory concepts.",
+    "text": "Status: Finished, potentially be picked up in the future\n\nAs soon as the third term of my Computer Science studies started, we got into graph theory in theoretical computer science. Since some of the concepts are initially hard to grasp, I thought it might be a good idea to get hands-on experience with graph theory. So I implemented some of the algorithms from the lecture in python and also used visual representation libraries to get a better look into the inner workings of those algorithms.\n\nAs the lectures continued and I wrapped my head around graphs I eventually stopped continuing the python project. But it helped me to gain a better understanding about graphs and probably jumpstarted my graph learning adventure.",
+    "imageUrl": "/graph_theory.png",
+    "imageWidth": 150,
+    "buttonUrl": "https://github.com/Zitronenjoghurt/GraphTheory"
+  },
+  {
+    "title": "AlienGeneLab",
+    "description": "A simplified genetic simulation in python.",
+    "text": "Status: Unfinished and canceled\n\nI was always obsessed with how close genetic code is to binary code and thought it might be a fun idea to do my own little genetic system which can handle breeding and results in realistic offsprings.\nI basically defined genes which had a value between 0 and 255, with a specified affected body part, a type, an effect and a code.\n\nA gene like part:hair, type:develop, effect:density would basically decide if the alien has hair and if yes, how dense it is (of a value between 0 and 255).\nAnother gene like part:skin, type:color, effect:red decided the skin color's red value from 0 to 255.\n\nIn the end the effects of those genes were converted into a description (as you can see on the right). You were also able to export the genetic code or create your own alien from scrambled genetic code. I eventually stopped continuing this project as genes I wanted to implement did not really work out with the general structure I laid out. With a future reboot of this project I gotta plan ahead more instead of planning while coding.",
+    "imageUrl": "/alien_gene_lab.png",
+    "imageWidth": 300,
+    "buttonUrl": "https://github.com/Zitronenjoghurt/AlienGeneLab"
+  },
+  {
+    "title": "WeatherGenerator",
+    "description": "A simplified weather generator in python.",
+    "text": "Status: Unfinished and canceled\n\nThis is one of the first bigger python project I have done. I was obsessed with how weather is generated in Animal Crossing, how simple but effective it is. So I wanted to see how you could generate believable weather with more variety.\n\nThe lack of mathematical understanding of what I am exactly doing with probability curves and other stuff ultimately made me drop the project. I think it was a bit too complex for a first real project, though I might retry it someday in the future.",
+    "imageUrl": "/weather_generator.png",
+    "imageWidth": 400,
+    "buttonUrl": "https://github.com/Zitronenjoghurt/WeatherGenerator"
+  }
+]

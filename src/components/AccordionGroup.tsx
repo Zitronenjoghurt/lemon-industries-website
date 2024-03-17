@@ -13,7 +13,6 @@ interface AccordionEntry {
   title: string;
   description: string;
   text: string;
-  buttonLabel: string;
   imageUrl: string;
   buttonUrl: string;
   imageWidth: number;
@@ -54,7 +53,7 @@ export default function AccordionGroup({ entries }: AccordionGroupProps) {
     };
 
   return (
-    <div>
+    <div style={{marginBottom: 50}}>
       {entries.map((entry, index) => (
         <Accordion key={index} expanded={expanded === `panel${index}`} onChange={handleChange(`panel${index}`)}>
           <AccordionSummary
