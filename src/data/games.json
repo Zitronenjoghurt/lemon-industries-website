@@ -2,7 +2,16 @@
     {
       "title": "Rimworld",
       "shortDescription": "This is a game.",
-      "imageUrl": "url_to_image_of_game",
-      "text": "Additional info about Game"
+      "text": "Additional info about Game",
+      "images": [
+        {
+          "url": "Test Image 1",
+          "title": "Test Image 1"
+        },
+        {
+          "url": "Test Image 2",
+          "title": "Test Image 2"
+        }
+      ]
     }
 ]

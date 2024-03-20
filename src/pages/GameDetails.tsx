@@ -3,13 +3,19 @@ import { useParams } from 'react-router-dom';
 import gamesData from '../data/games.json';
 import { Container, Typography, styled } from '@mui/material';
 import NavBar from '../components/NavBar';
+import Carousel from '../components/Carousel';
 
 const Offset = styled('div')(({ theme }) => theme.mixins.toolbar);
+
+interface Image {
+  url: string;
+  title: string;
+}
 
 interface Game {
     title: string;
     shortDescription: string;
-    imageUrl: string;
+    images: Image[];
     text: string;
 }
 
@@ -40,6 +46,8 @@ const GameDetails = () => {
         <Typography style={{marginBottom: 15, fontSize: 18, fontWeight: 'bold', textAlign: 'center'}}>
             {game.shortDescription}
         </Typography>
+        <Carousel images={game.images}>
+        </Carousel>
     </Container>
   );
 };
