@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Gaming from './pages/Gaming';
 import Api from './pages/Api';
+import GameDetails from './pages/GameDetails';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/gaming" element={<Gaming />} />
         <Route path="/api" element={<Api />} />
+        <Route path="/game/:gameTitle" element={<GameDetails />} />
       </Routes>
     </ThemeProvider>
   )

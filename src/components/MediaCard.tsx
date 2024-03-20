@@ -9,18 +9,19 @@ import { Link } from 'react-router-dom';
 interface CardProps {
     title: string;
     description: string;
-    buttonLabel: string;
-    buttonUrl: string;
     imageUrl: string;
     imageAlt: string;
-    cardWidth: number;
     imageHeight: number;
+    button1Label: string;
+    button1Url: string;
+    button2Label: string;
+    button2Url: string;
+    cardWidth: number;
 };
 
-export default function MediaCard({ title, description, buttonLabel, buttonUrl, imageUrl, imageAlt, cardWidth, imageHeight }: CardProps) {
-    const isExternal = !buttonUrl.startsWith('/');
-
-    const renderButton = () => {
+export default function MediaCard({ title, description, imageUrl, imageAlt, imageHeight, button1Label, button1Url, button2Label, button2Url, cardWidth }: CardProps) {
+    const renderButton = (buttonLabel: string, buttonUrl: string) => {
+        const isExternal = !buttonUrl.startsWith('/');
         if (isExternal) {
             return (
                 <Button size="small" component="a" href={buttonUrl} target="_blank" rel="noopener noreferrer">
@@ -37,13 +38,13 @@ export default function MediaCard({ title, description, buttonLabel, buttonUrl, 
     };
 
     return (
-        <Card sx={{ maxWidth: cardWidth }}>
+        <Card sx={{ display: 'flex', flexDirection: 'column', maxWidth: cardWidth, height: '100%' }}>
             <CardMedia
                 sx={{ height: imageHeight }}
                 image={imageUrl}
                 title={imageAlt}
             />
-            <CardContent>
+            <CardContent sx={{ flexGrow: 1 }}>
                 <Typography gutterBottom variant="h5" component="div">
                     {title}
                 </Typography>
@@ -52,8 +53,8 @@ export default function MediaCard({ title, description, buttonLabel, buttonUrl, 
                 </Typography>
             </CardContent>
             <CardActions>
-                {renderButton()}
-                <Button size="small">Read More</Button>
+                {renderButton(button1Label, button1Url)}
+                {renderButton(button2Label, button2Url)}
             </CardActions>
         </Card>
     );
