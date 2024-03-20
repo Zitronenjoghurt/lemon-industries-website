@@ -32,15 +32,15 @@ function ImageCard({ imageUrl, height, buttonLabel, buttonUrl }: ImageCardProps)
   };
 
   return (
-    <Box sx={{ minWidth: 275, height: '100%', maxHeight: 300, display: 'flex', flexDirection: 'column'}}>
-      <Card sx={{ backgroundColor: "#272727", color: 'white', height: "100%"}}>
+    <Box sx={{ minWidth: 275, height: '100%', maxHeight: 300, display: 'flex', flexDirection: 'column' }}>
+      <Card sx={{ backgroundColor: "#272727", color: 'white', height: "100%" }}>
         <CardMedia
           component="img"
           height={height}
           image={imageUrl}
           alt="Image description"
         />
-        <CardActions sx={{ justifyContent: 'center', p: 0.75}}>
+        <CardActions sx={{ justifyContent: 'center', p: 0.75 }}>
           {renderButton()}
         </CardActions>
       </Card>

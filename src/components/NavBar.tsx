@@ -14,6 +14,7 @@ import { useNavigate } from 'react-router-dom';
 const pages = [
   { name: 'Home', path: '/'},
   { name: 'Projects', path: '/projects'},
+  { name: 'Gaming', path: '/gaming'},
   { name: 'Api', path: '/api' }, 
   { name: 'GitHub', path: 'https://github.com/Zitronenjoghurt' }
 ];
