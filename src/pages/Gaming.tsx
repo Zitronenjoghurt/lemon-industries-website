@@ -30,8 +30,7 @@ const Gaming = () => {
                 Favorite Games
             </Typography>
             <Typography style={{ marginBottom: 20, fontSize: 18, fontStyle: 'italic', textAlign: 'center' }}>
-                Here I am showcasing some of my most favorite games<br/>
-                Click on "More Info" to see my full thoughts about the game
+                Here I am showcasing some of my most favorite games
             </Typography>
             <Grid container spacing={2} justifyContent="center" alignItems="stretch">
                 {games.map((game, index) => (
@@ -39,10 +38,10 @@ const Gaming = () => {
                         <MediaCard
                             title={game.title}
                             description={game.description}
-                            button1Label={game.websiteName}
-                            button1Url={game.websiteUrl}
-                            button2Label='More Info'
-                            button2Url={`/gaming/${encodeURIComponent(game.id)}`}
+                            button1Label='My thoughts'
+                            button1Url={`/gaming/${encodeURIComponent(game.id)}`}
+                            button2Label={game.websiteName}
+                            button2Url={game.websiteUrl}
                             imageUrl={game.imageUrl}
                             imageAlt='Thumbnail image for ${game.title}'
                             imageHeight={200}
