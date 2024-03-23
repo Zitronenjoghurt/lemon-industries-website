@@ -1,23 +1,9 @@
 [
     {
         "title": "Rimworld",
-        "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
+        "description": "A complex story-generator disguised as a survival-sim colony-builder.",
         "websiteName": "Steam",
-        "websiteUrl": "",
-        "imageUrl": ""
-    },
-    {
-        "title": "Rimworld",
-        "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
-        "websiteName": "Steam",
-        "websiteUrl": "",
-        "imageUrl": ""
-    },
-    {
-        "title": "Rimworld",
-        "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
-        "websiteName": "Steam",
-        "websiteUrl": "",
-        "imageUrl": ""
+        "websiteUrl": "https://store.steampowered.com/app/294100/RimWorld/",
+        "imageUrl": "/rimworld_1.jpg"
     }
 ]

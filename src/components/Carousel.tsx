@@ -2,8 +2,6 @@ import * as React from 'react';
 import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import MobileStepper from '@mui/material/MobileStepper';
-import Paper from '@mui/material/Paper';
-import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
@@ -39,37 +37,27 @@ function Carousel({ images }: CarouselProps) {
   };
 
   return (
-    <Box sx={{ maxWidth: 400, flexGrow: 1 }}>
-      <Paper
-        square
-        elevation={0}
-        sx={{
-          display: 'flex',
-          alignItems: 'center',
-          height: 50,
-          pl: 2,
-          bgcolor: 'background.default',
-        }}
-      >
-        <Typography>{images[activeStep].title}</Typography>
-      </Paper>
+    <Box sx={{ maxWidth: { xs: 453.33, sm: 680, md: 906.67, lg: 1133.33 }, flexGrow: 1 }}>
       <AutoPlaySwipeableViews
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
         index={activeStep}
         onChangeIndex={handleStepChange}
         enableMouseEvents
+        interval={12000}
       >
         {images.map((step, index) => (
-          <div key={step.title}>
+          <div key={`image-${index}`}>
             {Math.abs(activeStep - index) <= 2 ? (
               <Box
                 component="img"
                 sx={{
-                  height: 255,
+                  height: { xs: 255, sm: 382.5, md: 510, lg: 637.5 },
                   display: 'block',
-                  maxWidth: 400,
+                  maxWidth: { xs: 453.33, sm: 680, md: 906.67, lg: 1133.33 },
                   overflow: 'hidden',
                   width: '100%',
+                  objectFit: 'contain',
+                  objectPosition: 'center'
                 }}
                 src={step.url}
                 alt={step.title}

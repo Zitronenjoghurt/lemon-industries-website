@@ -1,16 +1,45 @@
 [
     {
       "title": "Rimworld",
-      "shortDescription": "This is a game.",
-      "text": "Additional info about Game",
+      "shortDescription": "A complex story-generator disguised as a survival-sim colony-builder.\nWhile it's graphics are not outstanding, the simplified artstyle allows for very detailed situations.",
       "images": [
         {
-          "url": "Test Image 1",
-          "title": "Test Image 1"
+          "url": "/rimworld_1.jpg",
+          "title": "Rimworld title image, showcasing the different storytellers."
         },
         {
-          "url": "Test Image 2",
-          "title": "Test Image 2"
+          "url": "/rimworld_2.jpg",
+          "title": "A rimworld colony under the attack of mechanoids, its in shambles and burning."
+        },
+        {
+          "url": "/rimworld_3.jpg",
+          "title": "A rimworld screenshot of a colony under attack, its showcasing the medical tab."
+        },
+        {
+          "url": "/rimworld_4.jpg",
+          "title": "A rimworld screenshot of a colony under attack, with colonists hiding behind cover."
+        },
+        {
+          "url": "/rimworld_5.jpg",
+          "title": "A rimworld screenshot of a colony in building process. Theres several unfinished wooden houses."
+        },
+        {
+          "url": "/rimworld_6.jpg",
+          "title": "A rimworld screenshot of a colony under mechanoid attack, theres several laser beams soaring across the screen."
+        },
+        {
+          "url": "/rimworld_7.jpg",
+          "title": "A rimworld screenshot of a colony using mechanoids as worker robots."
+        }
+      ],
+      "entries": [
+        {
+          "title": "Story",
+          "description": "Text"
+        },
+        {
+          "title": "Gameplay",
+          "description": "Text"
         }
       ]
     }

@@ -29,7 +29,8 @@ const Gaming = () => {
                 Favorite Games
             </Typography>
             <Typography style={{ marginBottom: 20, fontSize: 18, fontStyle: 'italic', textAlign: 'center' }}>
-                Here I am showcasing some of my most favorite games
+                Here I am showcasing some of my most favorite games<br/>
+                Click on "More Info" to see my full thoughts about the game
             </Typography>
             <Grid container spacing={2} justifyContent="center" alignItems="stretch">
                 {games.map((game, index) => (
