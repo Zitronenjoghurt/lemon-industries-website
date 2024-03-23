@@ -13,6 +13,7 @@ interface Image {
 interface Game {
     title: string;
     id: string;
+    date: string;
     shortDescription: string;
     images: Image[];
     entries: { title: string; description: string }[];
@@ -45,9 +46,13 @@ const GameDetails = () => {
       <Typography variant="subtitle1" gutterBottom align="center" style={{whiteSpace: 'pre-line'}}>
         {game.shortDescription}
       </Typography>
+      
       <Box display="flex" justifyContent="center" my={2}>
         <Carousel images={game.images} />
       </Box>
+      <Typography variant="subtitle2" gutterBottom align="center" style={{whiteSpace: 'pre-line'}}>
+        Article added on: {game.date}
+      </Typography>
       {game.entries?.map((entry, index) => (
         <Paper key={index} elevation={3} sx={{ p: 2, mb: 2 }}>
           <Typography variant="h5" gutterBottom align="center" fontWeight={"bold"}>
