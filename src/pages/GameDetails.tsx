@@ -1,11 +1,9 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import gamesData from '../data/games.json';
-import { Box, Container, Paper, Typography, styled } from '@mui/material';
+import { Box, Container, Paper, Typography } from '@mui/material';
 import NavBar from '../components/NavBar';
 import Carousel from '../components/Carousel';
-
-const Offset = styled('div')(({ theme }) => theme.mixins.toolbar);
 
 interface Image {
   url: string;
@@ -14,23 +12,24 @@ interface Image {
 
 interface Game {
     title: string;
+    id: string;
     shortDescription: string;
     images: Image[];
     entries: { title: string; description: string }[];
 }
 
 const GameDetails = () => {
-  const { gameTitle } = useParams<{ gameTitle: string }>();
+  const { gameId } = useParams<{ gameId: string }>();
   const [game, setGame] = useState<Game | null>(null);
 
   useEffect(() => {
-    if (!gameTitle) {
+    if (!gameId) {
         return;
       }
 
-    const gameData = gamesData.find(game => game.title === decodeURIComponent(gameTitle));
+    const gameData = gamesData.find(game => game.id === decodeURIComponent(gameId));
     setGame(gameData ?? null);
-  }, [gameTitle]);
+  }, [gameId]);
 
   if (!game) {
     return <div>Game does not exist...</div>;
@@ -39,15 +38,14 @@ const GameDetails = () => {
   return (
     <Container>
       <NavBar />
-      <Offset sx={{ mb: 5 }} />
       
-      <Typography variant="h3" gutterBottom align="center">
+      <Typography variant="h3" gutterBottom align="center" mt={10}>
         {game.title}
       </Typography>
       <Typography variant="subtitle1" gutterBottom align="center" style={{whiteSpace: 'pre-line'}}>
         {game.shortDescription}
       </Typography>
-      <Box display="flex" justifyContent="center" my={5}>
+      <Box display="flex" justifyContent="center" my={2}>
         <Carousel images={game.images} />
       </Box>
       {game.entries?.map((entry, index) => (
@@ -55,7 +53,7 @@ const GameDetails = () => {
           <Typography variant="h5" gutterBottom align="center" fontWeight={"bold"}>
             {entry.title}
           </Typography>
-          <Typography variant="body1">{entry.description}</Typography>
+          <Typography variant="body1" style={{whiteSpace: 'pre-line', textAlign: 'justify'}}>{entry.description}</Typography>
         </Paper>
       ))}
     </Container>

@@ -1,6 +1,7 @@
 [
     {
         "title": "Rimworld",
+        "id": "rimworld",
         "description": "A complex story-generator disguised as a survival-sim colony-builder.",
         "websiteName": "Steam",
         "websiteUrl": "https://store.steampowered.com/app/294100/RimWorld/",

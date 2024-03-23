@@ -8,6 +8,7 @@ const Offset = styled('div')(({ theme }) => theme.mixins.toolbar);
 
 interface Game {
     title: string;
+    id: string;
     description: string;
     websiteName: string;
     websiteUrl: string;
@@ -41,9 +42,9 @@ const Gaming = () => {
                             button1Label={game.websiteName}
                             button1Url={game.websiteUrl}
                             button2Label='More Info'
-                            button2Url={`/game/${encodeURIComponent(game.title)}`}
+                            button2Url={`/gaming/${encodeURIComponent(game.id)}`}
                             imageUrl={game.imageUrl}
-                            imageAlt='Thumbnail image for {game.title}'
+                            imageAlt='Thumbnail image for ${game.title}'
                             imageHeight={200}
                             cardWidth={400}
                         />

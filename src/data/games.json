@@ -1,7 +1,8 @@
 [
     {
       "title": "Rimworld",
-      "shortDescription": "A complex story-generator disguised as a survival-sim colony-builder.\nWhile it's graphics are not outstanding, the simplified artstyle allows for very detailed situations.",
+      "id": "rimworld",
+      "shortDescription": "A complex story-generator disguised as a survival-sim colony-builder.\nWhile it's graphics are not outstanding, the simplified artstyle allows for very unique interactions.",
       "images": [
         {
           "url": "/rimworld_1.jpg",
@@ -35,11 +36,15 @@
       "entries": [
         {
           "title": "Story",
-          "description": "Text"
+          "description": "You can start from many different pre-defined or custom starts, but in almost all of them your colonists strand on the Rimworld, a planet which is both hostile and comfy at times. Depending on the beginning you chose, you start out with either no items, or a helpful starter set of goods. Your goal will be to build up your colony, survive raids and other dangerous events to eventually leave this planet again.\nThe different expansions added more win-conditions later on, like royal ascension and other neat things"
         },
         {
           "title": "Gameplay",
-          "description": "Text"
+          "description": "Rimworld is way too complex to talk about all gameplay shenanigans here, but I will focus on some of the keys aspects.\n\nYou are not playing as one colonist, but you are indirectly controlling all of them. The most influence on their behavior is the schedule and tasks priority you set for them, but you can also force them to do certain tasks or directly order them around if you set them to combat mode. Every colonist has various skills which include Shooting, Melee, Construction, Mining, Cooking, Plants, Animals, Crafting, Artistic, Medical, Social and Intellectual. The better the colonist is in a certain skill, the better work they do at a task that requires said skill. By doing those tasks colonists gain experience in the respective skills which helps them improve their skill levels (ranging from 0 to 20). Some colonists might not be able to do certain work because of their background (how they grow up, what they were before they stranded on the rim). Other colonists might be passionate or REALLY passionate in a skill which makes them improve that skill faster.\n\nOne of your tasks will be to balance the work priorities so your colony works most efficient, how you use your time is a key factor of success. In the beginning you can choose one of 3 story tellers which all have a different approach to when they start certain events, and they won't wait for you to build up! You will always have to be ready to fight when armies of different factions try to attack and rob your colony in raids. Thats where combat and the unique health system of Rimworld comes into play. If you look at the 3rd image in the left, you can see different effects that the battle had on the body of that colonist, and its insanely detailed. Instead of just having HP, every body part can be damaged individually. With a lucky shot to the brain, even your most beefy colonist can be taken down in one hit.\n\nThrough mining, crafting, researching and building you slowly become more wealthy. You can trade and organize raids yourself to profit from the riches of other factions. But no matter how rich you are, you will never be fully safe. The story tellers will level-up the threats to make sure it will not get boring in the later game. At some point you will be able to venture to a stranded space ship, or build your own and escape from the Rimworld."
+        },
+        {
+          "title": "Why I love this game",
+          "description": "I first got into this game 5 years ago and now have over 500h. I come back to it from time to time and theres always one thing guaranteed: I will learn something new or experience something new, something I have never seen in the game before. All of the complex system intertwine to create a constant flow of interesting and unique interactions. Every colony you create will somehow have new twists, you will always have new stories to tell.\n\nOne time I was pretty good, wealthy, was able to fend off raids consistently. But then while mining I wasnt attentive enough, I mined away a load bearing piece of stone... And the cave floor collapsed on two of my colonists. They were just GONE, not even a corpse you could bury, just gone from one to the other moment...\n\nAnother time I had a start called 'Naked Brutality', where you start off with literally nothing. And I chose to only have ONE colonist. You will have to feed on berries till you get your agriculture rolling and since just having one colonist means you have many skills not covered... Its a difficult challenge. I started in the tropical area and my colonist happened to be good at taming animals, so I let them tame 2 elephants. And from then on these 2 elephants protected me from raids so I was able to focus on the colony and get everything rolling. Even with the worst start, you can always find a way to get an advantage in this game.\n\nOverall I really love the progression, slowly building up your colony while getting more and more colonists and fending off raids or other events... It's an experience no other game gave me before."
         }
       ]
     }

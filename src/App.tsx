@@ -16,7 +16,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/gaming" element={<Gaming />} />
         <Route path="/api" element={<Api />} />
-        <Route path="/game/:gameTitle" element={<GameDetails />} />
+        <Route path="/gaming/:gameId" element={<GameDetails />} />
       </Routes>
     </ThemeProvider>
   )
