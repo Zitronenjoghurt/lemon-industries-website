@@ -1,5 +1,13 @@
 [
   {
+    "title": "astro-generator (CURRENT PROJECT)",
+    "description": "A python library for generating semi-realistic random data of celestial bodies",
+    "text": "Status: Work in Progress\n\nI always had the idea of generating random data for stars or planets, but whenever I tried to do it I ended up creating something that was hard to work with and extend.\nWith AstroGenerator I want to create a library that is simple to work with and that I can easily extend with new features in the future.\nCurrently I am working on star generation (as you can see on the right), and I will soon get into planet generation (which will probably be the hardest part).",
+    "imageUrl": "/astro_generator.png",
+    "imageWidth": 400,
+    "buttonUrl": "https://github.com/Zitronenjoghurt/AstroGenerator"
+  },
+  {
     "title": "BabuBot",
     "description": "A multipurpose discord bot using discord.py",
     "text": "Status: Finished but in constant expansion\n\nI initially started creating this bot to check out how to make discord bots in python, then it quickly grew and grew as I got more and more ideas. Now it has so many features that I could'nt even list all of them here.\n\nSome of them include:\n• Rocket launch news, automatically sending notification 12h and 10min before every rocket launch\n• A fishing game with over 80 fish and a relatively nice progression curve\n• A command for getting a random Astronomy Picture Of the Day entry right from the NASA API\n• A command to randomly retrieve pet images (cat, dog, duck) from 3 selected APIs\n• A full shop and economy system, which structure allows for easily adding complex new types of items\n• A pokedex feature, which shows all kinds of data fromt he PokeAPI and will be extended in the future\n• An XP/Level system which gives currency as a reward for activity\n• Randomly querying OpenAI to answer specific messages using GPT-4, providing context of 5 messages\n• Custom profiles which you can set in a user-friendly way using a discord modal/form",
