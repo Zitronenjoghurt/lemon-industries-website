@@ -37,13 +37,14 @@ function Carousel({ images }: CarouselProps) {
   };
 
   return (
-    <Box sx={{ maxWidth: { xs: 453.33, sm: 680, md: 906.67, lg: 1133.33 }, flexGrow: 1 }}>
+    <Box sx={{ maxWidth: '100%', flexGrow: 1, overflow: 'hidden' }}>
       <AutoPlaySwipeableViews
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
         index={activeStep}
         onChangeIndex={handleStepChange}
         enableMouseEvents
         interval={12000}
+        style={{ width: '100%', overflow: 'hidden' }}
       >
         {images.map((step, index) => (
           <div key={`image-${index}`}>
@@ -51,11 +52,11 @@ function Carousel({ images }: CarouselProps) {
               <Box
                 component="img"
                 sx={{
-                  height: { xs: 255, sm: 382.5, md: 510, lg: 637.5 },
+                  maxHeight: { xs: 255, sm: 382.5, md: 510, lg: 637.5 },
                   display: 'block',
-                  maxWidth: { xs: 453.33, sm: 680, md: 906.67, lg: 1133.33 },
-                  overflow: 'hidden',
+                  maxWidth: '100%',
                   width: '100%',
+                  overflow: 'hidden',
                   objectFit: 'contain',
                   objectPosition: 'center'
                 }}
