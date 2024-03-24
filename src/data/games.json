@@ -94,5 +94,55 @@
           "description": "I have first played this game in 2018 and accumulated over 200h over the course of the years. I always find myself getting back to it from time to time, especially because the devs update it regularly and add more content for free (it got less over the last years though).\n\nI think the progression is very well thought-through and very satisfying. With every new playthrough you are ensured to be constantly occupied with things you can do, things that will constantly give you a sense of progression. Research feels meaningful, unlocking vehicles, chaining together rovers and monorails works perfectly and provides satisfying goals to strive for.\n\nThere are so many buildings that work very well together and are just super satisfying to accumulate in your base, to lay them out in a way that they work the best and provide you the greatest benefit is a nice problem-solving kind of experience\n\nThe art-style is unique and fits well into the procedural-generated worlds. In my opinion it synergizes well with the world-reshaping drill gameplay.\n\nOverall its just a neat and chill game you can play at your own pace without much stress or timed goals, where you can enjoy ever-lasting progression and exploration."
         }
       ]
+    },
+    {
+      "title": "Dyson Sphere Program",
+      "id": "dyson-sphere-program",
+      "date": "March 25, 2024",
+      "shortDescription": "A factory building sim on an interplanetary and interstellar scope.",
+      "images": [
+        {
+          "url": "/dsp_1.jpg",
+          "title": "Dyson Sphere Program title image, showing the name of the game with a sprawling factory at the front and a dyson sphere in the back."
+        },
+        {
+          "url": "/dsp_2.png",
+          "title": "A screenshot from Dyson Sphere Program showing the starter planet with some basic factory lines and energy production."
+        },
+        {
+          "url": "/dsp_3.jpg",
+          "title": "A screenshot from Dyson Sphere Program showing a few conveyor belt lines on a desert planet. On the side are assembly lines."
+        },
+        {
+          "url": "/dsp_4.jpg",
+          "title": "A screenshot from Dyson Sphere Program showing a couple dozen EM-Rail Ejectors. They are basically magnetic cannons shooting solar sails into a specified orbit around the star."
+        },
+        {
+          "url": "/dsp_5.jpg",
+          "title": "A screenshot from Dyson Sphere Program showing a Dyson Sphere in the process of being built. There are already some panels aligned and the star is surrounded by swarms of solar sails on different orbits."
+        },
+        {
+          "url": "/dsp_6.jpg",
+          "title": "A screenshot from Dyson Sphere Program showing a planet with massive lines of Solar Sail shooting cannons and rocket launch pads which launch supply rockets for building the Dyson Sphere panels into space."
+        },
+        {
+          "url": "/dsp_7.jpg",
+          "title": "A screenshot from Dyson Sphere Program showing a planet fully cluttered with infrastructure to shoot solar sails and supply/construction rockets for the Dyson Sphere into space."
+        },
+        {
+          "url": "/dsp_8.jpg",
+          "title": "A screenshot from Dyson Sphere Program showing a planet fully covered in factories with storage units and research labs stacked to insane heights on top of each other."
+        }
+      ],
+      "entries": [
+        {
+          "title": "Gameplay",
+          "description": "Dyson Sphere Program is very similar to Factorio, but extends the scope from just one 2D landscape of one planet, to 3D, to interplanetary and even interstellar logistics. You are a construction robot/mech stranded on a random but peaceful planet. Your task is to harness the resources, build conveyor belts and construction lines to craft items into more and more complex items and to research more and more insane technologies.\n\nWhile doing so, you can move freely around the planet. At first you can only walk, later on you can hover over the land and water. At some point you can leave your planet and visit other plants or moons in your solar system. Later on you are also able to research the warp drive and leave your system to visit other stars and their respective planets. You can even build planetary and interstellar logistic stations to move items around your planet via drones, or to other planets and star system via logistic vessels. That way you can dedicate certain planets for a specific task and then build your web of factories across your galaxy cluster.\n\nAs the name states, your ultimate goal is to build a Dyson Sphere, a giant megastructure around a star which harnesses its energy to almost maximum. For that you will have to slowly build your way up in technology and production progression. At some point you can build Railguns which can shoot solar sails into an orbit around the star. These solar sails will make up dyson swarms and already provide some energy output. The disadvantage is that the solar sails are unable to be maintained and therefore have a limited lifespan. Your energy generation will therefore ultimately be limited to how fast you can shoot new solar sails into orbit. Though as you continue your research you will find out how to build rockets and dyson frames. The rockets will be launched into orbits close to the star and build up structural frames. These frames will 'suck in' the solar sails from the surrounding dyson swarms to build up the dyson sphere panels. All solar sails that are placed into the panels will be maintained forever and will permanently produce energy for you. The energy produced by the dyson sphere and dyson swarms can be received by specific facilities on the planets. You can also use the rays received from the megastructure to build antimatter fuel rods which you can ship through the star cluster to bring the produced energy to wherever you need it.\n\nThere is a feature where you can view other players energy production on a milky way galaxy map. The greater the production of a specific user, the brighter they will appear on the map. This does not have any direct benefits, but is still a nice incentive to push the limits."
+        },
+        {
+          "title": "Why I love this game",
+          "description": "When I first played this game I was in awe about every little thing. The User Interface is insanely well made and packed with information. The graphics overall are insanely well made and everything fits well together and it feels unique. The controlls are well done and intuitive, the progression is very well planned... And this game is not even finished yet! As of right now (March 2024) it is still in Early Access and receives constant content updates and features.\n\nBut the most mind-blowing thing about this game is the whole dyson sphere system. When shooting those solar sails into orbit you will see each individual sail in orbit and you can even fly to them and visit the swarm up close. The dyson sphere builder allows for very diverse kind of structures, so you don't have to stick with the plain old square-panel design. You can literally do whatever you want with it (kinda). And just flying through the solar system, seeing those blue flares being shot from your planets which end in an orbit. Seeing the dyson swarm getting more voluminous, seeing rockets start and fly to the star. Seeing the solar sails being sucked into the dyson sphere frame nodes to slowly build up the panels... All of this combined... Sometimes I just had the game open and watched the progress because it was so insanely satisfying. And no other game gave me that kinda satisfaction before."
+        }
+      ]
     }
 ]
