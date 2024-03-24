@@ -6,5 +6,13 @@
         "websiteName": "Steam",
         "websiteUrl": "https://store.steampowered.com/app/294100/RimWorld/",
         "imageUrl": "/rimworld_1.jpg"
+    },
+    {
+        "title": "Astroneer",
+        "id": "astroneer",
+        "description": "A space exploration survival game where you can reshape the world to your will.",
+        "websiteName": "Steam",
+        "websiteUrl": "https://store.steampowered.com/app/361420/ASTRONEER/",
+        "imageUrl": "/astroneer_1.jpg"
     }
 ]

@@ -30,7 +30,8 @@ const Gaming = () => {
                 Favorite Games
             </Typography>
             <Typography style={{ marginBottom: 20, fontSize: 18, fontStyle: 'italic', textAlign: 'center' }}>
-                Here I am showcasing some of my most favorite games
+                Here I am showcasing some of my most favorite games <br/>
+                Still adding more...
             </Typography>
             <Grid container spacing={2} justifyContent="center" alignItems="stretch">
                 {games.map((game, index) => (
@@ -43,7 +44,7 @@ const Gaming = () => {
                             button2Label={game.websiteName}
                             button2Url={game.websiteUrl}
                             imageUrl={game.imageUrl}
-                            imageAlt='Thumbnail image for ${game.title}'
+                            imageAlt={`Thumbnail image for ${game.title}`}
                             imageHeight={200}
                             cardWidth={400}
                         />
