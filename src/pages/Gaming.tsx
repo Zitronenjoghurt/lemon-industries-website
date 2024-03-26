@@ -35,7 +35,7 @@ const Gaming = () => {
             </Typography>
             <Grid container spacing={2} justifyContent="center" alignItems="stretch">
                 {games.map((game, index) => (
-                    <Grid item xs={8} sm={6} md={4} key={index} style={{ display: 'flex' }}>
+                    <Grid item xs={8} sm={6} md={4} key={index} style={{ display: 'flex' }} marginBottom={2}>
                         <MediaCard
                             title={game.title}
                             description={game.description}
