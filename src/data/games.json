@@ -144,5 +144,55 @@
           "description": "When I first played this game I was in awe about every little thing. The User Interface is insanely well made and packed with information. The graphics overall are insanely well made and everything fits well together and it feels unique. The controlls are well done and intuitive, the progression is very well planned... And this game is not even finished yet! As of right now (March 2024) it is still in Early Access and receives constant content updates and features.\n\nBut the most mind-blowing thing about this game is the whole dyson sphere system. When shooting those solar sails into orbit you will see each individual sail in orbit and you can even fly to them and visit the swarm up close. The dyson sphere builder allows for very diverse kind of structures, so you don't have to stick with the plain old square-panel design. You can literally do whatever you want with it (kinda). And just flying through the solar system, seeing those blue flares being shot from your planets which end in an orbit. Seeing the dyson swarm getting more voluminous, seeing rockets start and fly to the star. Seeing the solar sails being sucked into the dyson sphere frame nodes to slowly build up the panels... All of this combined... Sometimes I just had the game open and watched the progress because it was so insanely satisfying. And no other game gave me that kinda satisfaction before."
         }
       ]
+    },
+    {
+      "title": "Streets of Rogue",
+      "id": "streets-of-rogue",
+      "date": "March 27, 2024",
+      "shortDescription": "A rogue-lite action game where you unleash anarchy on the city of a corrupt major.",
+      "images": [
+        {
+          "url": "/sor_1.jpg",
+          "title": "Streets of Rogue title image, showing 3 characters from the game and the title name."
+        },
+        {
+          "url": "/sor_2.jpg",
+          "title": "A screenshot from Streets of Rogue showing a fight between the player and a gang."
+        },
+        {
+          "url": "/sor_3.jpg",
+          "title": "A screenshot from Streets of Rogue showing a robot retrieving an item from a house (peacefully of course)."
+        },
+        {
+          "url": "/sor_4.png",
+          "title": "A screenshot from Streets of Rogue showing the different characters in the game, highlighting Yoshikage Kira, a custom created character."
+        },
+        {
+          "url": "/sor_5.png",
+          "title": "A screenshot from Streets of Rogue showing 4 players in the lobby, they are playing Co-Op."
+        },
+        {
+          "url": "/sor_6.jpg",
+          "title": "A screenshot from Streets of Rogue showing the player being giant in a half destroyed house."
+        },
+        {
+          "url": "/sor_7.jpg",
+          "title": "A screenshot from Streets of Rogue showing two players in couch Co-Op, one being a thief and the other being a zombie."
+        }
+      ],
+      "entries": [
+        {
+          "title": "Story",
+          "description": "In Streets of Rogue you are being recruited by a resistance group to overthrow a corrupt major... Yeah thats pretty much it."
+        },
+        {
+          "title": "Gameplay",
+          "description": "You start out in the lobby, the resistance headquarter, where you can redeem item unlocks and other things that might be helpful throughout your runs up to the major district. Since this is a rogue-lite game, when you die you have to start all over again. But because of the seemingly endless variety of characters and missions + optional chunk packs you can install through the Steam Workshop, it never gets old.\n\nIn the lobby you can choose one of the characters you have unlocked (or create your own, which can be pretty fun!) and jump into the city. In the beginning you start out in the slum region, the first of 5 regions. Each of the 5 regions have 3 layers, where the 3rd layer provides a random challenge. On each layer you have to finish a number of random missions which can range from destroying a generator or poisoning a sea to supporting the escape of a prisoner or infiltrating a bank.\n\nDepending on your character, you will have different starting items and abilities, which make you find different approaches to fulfill the missions. Where the slum citizen character might be the weakest and most basic one, with the police character you might look out for thugs to arrest and steal their items. With the assasin you might sneak into the vault, while with the gorilla you might try to punch the hell out of everyone in your way.\n\nWhile you only have a small selection of characters unlocked in the beginning, every locked character has a special kind of way to be unlocked. It is kind of the same with the items you can encounter on your way up to the major district. Throughout the game you can collect nuggets which you can use to unlock new items, they can then appear randomly in every level."
+        },
+        {
+          "title": "Why I love this game",
+          "description": "Streets of Rogue is actually the only game where I have all achievements in. Probably because they are not THAT difficult to achieve, and can even be quite fun. I played the game for over 120h and enjoyed every hour. The most fun was probably to create my own characters, from blatantly OP to characters that are balanced and could even exist in the game, there is a lot of freedom.\n\nMy favorite character is probably the Assassin, his special ability is to become invisible for a few seconds and if you hit people from behind you deal tons of damage. I really enjoy assessing the surroundings of my mission beforehand and think about the best way to solve it, then head in invisible and try to do it as stealth as possible. But even when things go wrong, the Assassin starts with some items that can get you out of failed attempts.\n\nThe overall flair of the game, the graphics, the music... Everything is just super enjoyable. Whenever I'm bored I get back to this game and its sure to give me a fun time."
+        }
+      ]
     }
 ]

@@ -22,5 +22,13 @@
         "websiteName": "Steam",
         "websiteUrl": "https://store.steampowered.com/app/1366540/Dyson_Sphere_Program/",
         "imageUrl": "/dsp_1.jpg"
+    },
+    {
+        "title": "Streets of Rogue",
+        "id": "streets-of-rogue",
+        "description": "A rogue-lite action game where you unleash anarchy on the city of a corrupt major.",
+        "websiteName": "Steam",
+        "websiteUrl": "https://store.steampowered.com/app/512900/Streets_of_Rogue/",
+        "imageUrl": "/sor_1.jpg"
     }
 ]
