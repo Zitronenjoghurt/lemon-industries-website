@@ -194,5 +194,55 @@
           "description": "Streets of Rogue is actually the only game where I have all achievements in. Probably because they are not THAT difficult to achieve, and can even be quite fun. I played the game for over 120h and enjoyed every hour. The most fun was probably to create my own characters, from blatantly OP to characters that are balanced and could even exist in the game, there is a lot of freedom.\n\nMy favorite character is probably the Assassin, his special ability is to become invisible for a few seconds and if you hit people from behind you deal tons of damage. I really enjoy assessing the surroundings of my mission beforehand and think about the best way to solve it, then head in invisible and try to do it as stealth as possible. But even when things go wrong, the Assassin starts with some items that can get you out of failed attempts.\n\nThe overall flair of the game, the graphics, the music... Everything is just super enjoyable. Whenever I'm bored I get back to this game and its sure to give me a fun time."
         }
       ]
+    },
+    {
+      "title": "Stellaris",
+      "id": "stellaris",
+      "date": "March 28, 2024",
+      "shortDescription": "A 4X real-time strategy game where you can dominate a whole galaxy.",
+      "images": [
+        {
+          "url": "/stellaris_1.png",
+          "title": "Stellaris title image, showing an ancient planet with ruins but also kind of futuristic stone-ish buildings."
+        },
+        {
+          "url": "/stellaris_2.jpg",
+          "title": "A screenshot from Stellaris showing the UI at the galaxy map. You can see ship icons and empire borders. But also information about planets in a list to the right and resource information at the top."
+        },
+        {
+          "url": "/stellaris_3.jpg",
+          "title": "A screenshot from Stellaris showing the galaxy map but zoomed in closer to some of the star systems."
+        },
+        {
+          "url": "/stellaris_4.jpg",
+          "title": "A screenshot from Stellaris showing a close solar system view with disabled UI. Theres several ships and space amoeba."
+        },
+        {
+          "url": "/stellaris_5.jpg",
+          "title": "A screenshot from Stellaris zoomed in to a space battle between several dozen of ships. Theres lasers everywhere."
+        },
+        {
+          "url": "/stellaris_6.jpg",
+          "title": "A screenshot from Stellaris showing another view from the galaxy map UI."
+        }
+      ],
+      "entries": [
+        {
+          "title": "4X as a genre",
+          "description": "4X stands for explore, expand, exploit and exterminate. Such games are usually very complex with deep gameplay features that complement each other. Paradox Interactive, the developers behind Stellaris and other 4X games, are renowned for such types of games."
+        },
+        {
+          "title": "Gameplay",
+          "description": "Before you even head into the game, you have to create your empire in the very extensive empire creation. There you can decide the overall orientation (spiritual, materialistic, peaceful, xeno-phile/-phobic, etc.) and your government structure (Dictatorship, Democracy, Hive mind??, etc...). You will also create your species which can be of different types like machines, mushroom people? or just plain old humans. You can give your species and government many different traits (positive and negative) that will ultimately shape your playstyle. The customization is very extensive while not being too overwhelming, allowing for a wide variety of different gameplay variations. After creating your species you can adjust various settings about how you want your game to play. Including galaxy size (amount of stars) and galaxy shape, but also amount of AI players, their difficulty and much more.\n\nOnce you're finished with all the customization, you start out in your first system in a huge galaxy. Depending on what empire you have created, your playstyle might vary widely. Though usually you would start out exploring the surrounding systems with science ships, create mining stations and expand using construction ships. You will have to expand wisely, get chokepoint and other important features, because sooner or later you will stumble across other empires, that also try to expand their borders.\n\nThats where one of the biggest strengths of Stellaris comes into play: Diplomacy. Instead of all other empires just having the goal to eliminate you, they can have widely different agendas depending on their empire type, orientation, species, etc. You can enhance or worsen your relationship with another empire using envoys, but you can also make them gifts, trade with them, or even insult them. I usually play nice in the beginning, because war in the expansion face could ultimately mean your doom.\n\nOne big aspect about the game is technology. There are several ways to increase your research output, which is split into 3 different parts: Physics, Engineering and Society. For all of these you can choose 1 technology each that your scientists will work on for a specific amount of time, before you can choose another. They do not cost anything, but the more overall science you produce, the faster you can research. And fast research will be important to get ahead of your opponents. They give you better ship components like weapons and defenses, more efficient ways to produce resources and many many other things.\n\nAfter some time in the game you will be able to join the Galactic Community, which is basically like the Senate in Star Wars, where empires can propose resolutions that members of the community have to abide. There are also random story events that occur at times or when you research anomalies in certain systems. There are a ton of different things in the game, to such an extend that I wouldnt say I have 'mastered' the game after over 500h, but I hope I was able to give you a decent overview about the game here. I recommend watching tutorials on youtube if you ultimately become better, or just try out things for yourself and see how they go."
+        },
+        {
+          "title": "The DLCs...",
+          "description": "Unfortunately, like with every Paradox Interactive game, Stellaris has a load of DLCs. Luckily though they only add a few features to the game and its perfectly enjoyable without them.\n\nThough if you want to get some more content, I definitely recommend the Utopia and Federations DLC.\nUtopia will enable you to build megastructures (which then also allows you to get the Gigastructural Engineering mod from the steam workshop, that one is insanely good!).\nFederations will extend the federation and galactic community system which adds more depth to the overall galactic diplomacy."
+        },
+        {
+          "title": "Why I love this game",
+          "description": "While it can be a bit overwhelming in the beginning, once you get into Stellaris and get a feeling for all the intertwining systems, its a very enjoyable experience. I especially like that feeling of organic growth because usually its not one decision that drives your empire, its a ton of different decisions you take in all of the different gameplay systems that ultimately decide the success of your empire. Slowly getting a feeling for what has a good and what has a bad influence feels very rewarding, especially once you can steamroll everyone in the end-game. Whenever I pick this game up again, Im definitely gone for at least a few hours on a few days in a row."
+        }
+      ]
     }
 ]

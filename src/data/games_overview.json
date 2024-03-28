@@ -30,5 +30,13 @@
         "websiteName": "Steam",
         "websiteUrl": "https://store.steampowered.com/app/512900/Streets_of_Rogue/",
         "imageUrl": "/sor_1.jpg"
+    },
+    {
+        "title": "Stellaris",
+        "id": "stellaris",
+        "description": "A 4X real-time strategy game where you can dominate a whole galaxy.",
+        "websiteName": "Steam",
+        "websiteUrl": "https://store.steampowered.com/app/281990/Stellaris/",
+        "imageUrl": "/stellaris_1.png"
     }
 ]
